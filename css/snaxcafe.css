@@ -45,10 +45,29 @@ body {
 
 }
 
+#welcome {
+    position: relative;
+}
+#welcome > img {
+    width: 200px;
+    bottom: 0px;
+    right: 0px;
+    padding: 5px;
+    z-index: 11;
+    position: absolute;
+}
 
 /* Responsive styles */
 
 @media (max-width: 600px) {
+
+    #welcome > img {
+        width: 150px;
+        bottom: 50px;
+        right: 0;
+        z-index: 11;
+        position: absolute;
+    }
 
     .carousel-caption {
         text-align: center;
