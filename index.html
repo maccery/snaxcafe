@@ -5,6 +5,7 @@
 
         <link rel="stylesheet" href="css/bootstrap.css"  type="text/css"/>
         <link rel="stylesheet" href="css/snaxcafe.css" type="text/css"/>
+
     </head>
     <body>
 
@@ -19,12 +20,13 @@
                 </button>
             </div>
 
-
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#menu">Menu</a></li>
-                    <li><a href="#location">Location</a></li>
-                    <li><a href="#catering">Outside Catering</a></li>
+                    <li><a href="#welcome">Home</a></li>
+                    <li><a href="#blackboard">Menu</a></li>
+                    <li><a href="#map">Location</a></li>
+                    <li><a href="#catering">Catering</a></li>
+                    <li><a href="#comments">Customer Comments</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -306,8 +308,11 @@
         <div id="map">
 
         </div>
-        <div class="jumbotron">
+        <div id="catering" class="jumbotron">
             <h1>Outside Catering</h1>
+        </div>
+        <div id="contact" class="jumbotron">
+            <h1>Contact Us</h1>
         </div>
         <div class="container">
         <hr>
@@ -317,8 +322,11 @@
         <script type="text/javascript"
                 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCXvFAkVLcBpuajrGcjUZwMaAklYeeh6c&sensor=false">
         </script>
-        <script type="text/javascript" src="js/maps.js"></script>
         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script type="text/javascript" src="js/maps.js"></script>
+
         <script src="js/bootstrap.js"></script>
+        <script src="js/hashchange.js"></script>
+
     </body>
 </html>
