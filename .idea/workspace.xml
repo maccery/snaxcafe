@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5adb08d0-1881-40d2-af71-2382e4e3cf17" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/snaxcafe.css" afterPath="$PROJECT_DIR$/css/snaxcafe.css" />
     </list>
     <ignored path="snaxcafe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +28,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="25" selection-start="807" selection-end="807" vertical-scroll-proportion="0.43548387" vertical-offset="0" max-vertical-offset="1170">
+            <state line="31" column="98" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.5564516" vertical-offset="120" max-vertical-offset="1200">
               <folding />
             </state>
           </provider>
@@ -254,7 +253,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="807" selection-end="807" vertical-scroll-proportion="0.43548387" vertical-offset="0" max-vertical-offset="1170">
+        <state line="31" column="98" selection-start="1295" selection-end="1295" vertical-scroll-proportion="0.5564516" vertical-offset="120" max-vertical-offset="1200">
           <folding />
         </state>
       </provider>
