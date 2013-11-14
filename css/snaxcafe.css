@@ -5,6 +5,16 @@ body {
     color: #5a5a5a;
 }
 
+#map {
+    height: 100%;
+    width: 100%;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 /* Carousel styles */
 
 .cover1 {
