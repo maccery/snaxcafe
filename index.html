@@ -1,21 +1,43 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset=”utf-8”>
+        <meta charset="utf-8">
 
         <link rel="stylesheet" href="css/bootstrap.css"  type="text/css"/>
         <link rel="stylesheet" href="css/snaxcafe.css" type="text/css"/>
     </head>
     <body>
 
+        <div  class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#location">Location</a></li>
+                    <li><a href="#catering">Outside Catering</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+
+        </div>
         <div id="welcome" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
+
             <ol class="carousel-indicators">
                 <li data-target="#welcome" data-slide-to="0" class="active"></li>
                 <li data-target="#welcome" data-slide-to="1"></li>
             </ol>
 
-            <!-- Wrapper for slides -->
+
             <div class="carousel-inner">
                 <div class="item active cover1">
                     <div class="carousel-caption">
@@ -32,7 +54,6 @@
 
             </div>
 
-            <!-- Controls -->
             <a class="left carousel-control" href="#welcome" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left"></span>
             </a>
@@ -40,6 +61,11 @@
                 <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
         </div>
+        <div class="container">
+        <hr>
+        <footer>&copy; Copyright SnaxCafe.com 2013. Design by Maccery</footer>
+        </div>
+
 
         <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
         <script src="js/bootstrap.js"></script>

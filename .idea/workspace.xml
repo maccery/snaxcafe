@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5adb08d0-1881-40d2-af71-2382e4e3cf17" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/snaxcafe.css" afterPath="$PROJECT_DIR$/css/snaxcafe.css" />
     </list>
     <ignored path="snaxcafe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="8" selection-start="786" selection-end="786" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="780">
+            <state line="18" column="25" selection-start="807" selection-end="807" vertical-scroll-proportion="0.43548387" vertical-offset="0" max-vertical-offset="1170">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="snaxcafe.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="snaxcafe.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/snaxcafe.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="9" selection-start="197" selection-end="273" vertical-scroll-proportion="0.045031056" vertical-offset="181" max-vertical-offset="915">
+            <state line="44" column="0" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
@@ -62,8 +62,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/snaxcafe.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -245,16 +245,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/snaxcafe.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="8" selection-start="786" selection-end="786" vertical-scroll-proportion="-13.75" vertical-offset="0" max-vertical-offset="780">
+        <state line="44" column="0" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0" vertical-offset="196" max-vertical-offset="1035">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/snaxcafe.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="197" selection-end="273" vertical-scroll-proportion="0.045031056" vertical-offset="181" max-vertical-offset="915">
+        <state line="18" column="25" selection-start="807" selection-end="807" vertical-scroll-proportion="0.43548387" vertical-offset="0" max-vertical-offset="1170">
           <folding />
         </state>
       </provider>
