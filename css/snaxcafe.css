@@ -1,0 +1,56 @@
+/* Global styles */
+
+body {
+    padding-bottom: 40px;
+    color: #5a5a5a;
+}
+
+
+
+/* Carousel styles */
+
+.cover1 {
+    background: url('../images/bacon.jpg') no-repeat center center fixed;
+}
+.cover2 {
+    background: url('../images/english.JPG') no-repeat center center fixed;
+}
+
+.carousel-caption h1 {
+    font-size: 80px;
+}
+
+
+.carousel {
+    height: 600px;
+    margin-bottom: 60px;
+}
+
+.carousel-caption {
+    display: inline-block;
+    height: 390px;
+    text-align: left;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 600px;
+}
+
+
+/* Responsive styles */
+
+@media (max-width: 600px) {
+
+    .carousel-caption {
+        text-align: center;
+    }
+    .carousel-caption h2 {
+        font-size: 21px;
+        line-height: 1.4;
+    }
+
+    .carousel-caption h1 {
+        font-size: 45px;;
+    }
+}

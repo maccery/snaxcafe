@@ -2,39 +2,46 @@
 <html>
     <head>
         <meta charset=”utf-8”>
-        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-        <script src="js/bootstrap.js"></script>
+
         <link rel="stylesheet" href="css/bootstrap.css"  type="text/css"/>
+        <link rel="stylesheet" href="css/snaxcafe.css" type="text/css"/>
     </head>
     <body>
 
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-        </ol>
+        <div id="welcome" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#welcome" data-slide-to="0" class="active"></li>
+                <li data-target="#welcome" data-slide-to="1"></li>
+            </ol>
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item active">
-                <img src="..." alt="...">
-                <div class="carousel-caption">
-                    ...
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                <div class="item active cover1">
+                    <div class="carousel-caption">
+                        <h1>Hungover?</h1>
+                        <h2>Get a bacon roll delivered to your flat to ease the crippling pain.</h2>
+                    </div>
                 </div>
+                <div class="item cover2">
+                    <div class="carousel-caption">
+                        <h1>Hungry?</h1>
+                        <h2>We'll deliver you a cooked breakfast to your door.</h2>
+                    </div>
+                </div>
+
             </div>
-            ...
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#welcome" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#welcome" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
         </div>
 
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-    </div>
-
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script src="js/bootstrap.js"></script>
     </body>
 </html>
