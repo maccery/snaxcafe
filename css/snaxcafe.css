@@ -45,8 +45,11 @@ body {
 
 }
 
+/* Welcome styles */
 #welcome {
     position: relative;
+    padding: 0px;
+    margin: 0px;
 }
 #welcome > img {
     width: 200px;
@@ -57,8 +60,32 @@ body {
     position: absolute;
 }
 
+/* Blackboard styles */
+#blackboard {
+    background: url('../images/blackboard.jpg') no-repeat center center fixed;
+    color: white;
+    width: 100%;
+
+}
+
+#blackboard dt {
+    width: 180px;
+    white-space: normal;
+    padding-right: 10px;
+
+}
+
+#blackboard h1 {
+    font-size: 100px;
+}
+
 /* Responsive styles */
 
+@media (max-width: 768px) {
+    #blackboard h1 {
+        font-size: 60px;
+    }
+}
 @media (max-width: 600px) {
 
     #welcome > img {
