@@ -1,3 +1,33 @@
+<?php
+    function isOpen($cafe) {
+        if($cafe=='west') {
+            if((date('N')<=5) && date('Hi')>=0630 && date('Hi')<=1700) {
+                return true;
+            }elseif((date('N')==6) && date('Hi')>=0700 && date('Hi')<=1700) {
+                return true;
+            }elseif((date('N')==7) && date('Hi')>=0730 && date('Hi')<=1700) {
+                return true;
+            }else{
+                return false;
+            }
+        }else{
+            if((date('N')<=5) && date('Hi')>=0700 && date('Hi')<=1700) {
+                return true;
+            }elseif((date('N')==6) && date('Hi')>=0700 && date('Hi')<=1800) {
+                return true;
+            }elseif((date('N')==7) && date('Hi')>="0800" && date('Hi')<=1800) {
+                return true;
+            }else{
+                return false;
+            }
+
+        }
+    }
+$open = '<button type="button" class="btn btn-success btn-lg">OPEN</button>';
+$closed = '<button type="button" class="btn btn-fail btn-lg">CLOSED</button>';
+
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -48,7 +78,7 @@
         </div>
         <img src="images/logo.png" class="img-responsive" style="position: absolute; width: 300px; z-index: 11;">
         <div id="welcome" class="carousel slide" data-ride="carousel">
-            <a href="#contact"><img class="open" src="images/open.png"></a>
+            <a href="#contact"><?php if(isOpen('west')||isOpen('buccleuch')) { echo "<img src='../images/open.png' id='open'>"; }else{ echo "<img src='../images/closed.png' id='open'>"; } ?></a>
             <ol class="carousel-indicators">
                 <li data-target="#welcome" data-slide-to="0" class="active"></li>
                 <li data-target="#welcome" data-slide-to="1"></li>
@@ -451,7 +481,7 @@
                     <dd>7.30am to 5.00pm</dd>
                 </dl>
 
-                <p><button type="button" class="btn btn-danger btn-lg">CLOSED</button></p>
+                <p><?php if(isOpen('west')) { echo $open; }else{ echo $closed; } ?></p>
             </div>
             <div id="buccleuch" class="col-md-6 jumbotron contact">
 
@@ -469,7 +499,7 @@
                     <dd>8.00am to 6.00pm</dd>
                 </dl>
 
-                <p><button type="button" class="btn btn-success btn-lg">OPEN</button></p>
+                <p><?php if(isOpen('buccleuch')) { echo $open; }else{ echo $closed; } ?></p>
 
             </div>
 
@@ -485,3 +515,4 @@
 
     </body>
 </html>
+}
