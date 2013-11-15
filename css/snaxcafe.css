@@ -82,11 +82,57 @@ body, html {
     width: 180px;
     white-space: normal;
     padding-right: 10px;
+    text-align: left;
+    padding: 5px;
 
 }
 
 #blackboard h1 {
     font-size: 100px;
+}
+
+/* Catering styles */
+#catering {
+    background-color: white;
+    margin: 0px;
+
+}
+
+/* Contact styles */
+#westregister {
+    background-image: url('../images/westregister.jpg');
+
+}
+
+#buccleuch {
+    background-image: url('../images/buccleuch.jpg');
+
+}
+
+#contact {
+    width: 100%;
+    position: relative;
+    height: 500px;
+    padding: 0px;
+    margin: 0px;
+}
+.contact { color: white;
+height: 100%;
+}
+
+
+
+#catering dt {
+    width: 320px;
+    text-align: left;
+    white-space: normal;
+    padding-right: 10px;
+}
+
+
+/* Comments styles */
+#comments {
+    width: 100%;
 }
 
 /* Responsive styles */

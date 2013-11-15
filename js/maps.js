@@ -23,6 +23,7 @@ function initialize() {
     });
 }
 google.maps.event.addDomListener(window, 'load', initialize);
+
 $('a[href^="#"]').on('click',function (e) {
     e.preventDefault();
 
