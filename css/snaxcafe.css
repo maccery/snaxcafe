@@ -15,6 +15,13 @@ body, html {
     padding: 0;
 }
 
+#logo {
+    position: absolute;
+    width: 300px;
+    z-index: 11;
+}
+
+
 /* Carousel styles */
 
 .cover1 {
@@ -61,13 +68,14 @@ body, html {
     padding: 0px;
     margin: 0px;
 }
-#welcome > img {
-    width: 200px;
-    bottom: 0px;
-    right: 0px;
-    padding: 5px;
-    z-index: 11;
+.open {
+    border: 0px;
     position: absolute;
+    bottom: 0px;
+    z-index: 11;
+    right: 0px;
+    padding: 10px;
+    width: 200px;
 }
 
 /* Blackboard styles */
@@ -143,7 +151,7 @@ body, html {
 }
 @media (max-width: 600px) {
 
-    #welcome > img {
+    .open {
         width: 150px;
         bottom: 50px;
         right: 0;
