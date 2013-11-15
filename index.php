@@ -48,7 +48,7 @@ $closed = '<button type="button" class="btn btn-fail btn-lg">CLOSED</button>';
         <meta property="og:url" content="http://snaxcafe.com" />
         <meta property="og:description" content="Breakfast delivered to your door 7 days a week in less than 20 minutes anywhere in central Edinburgh. "/>
         <meta property="og:image" content="http://snaxcafe.com/images/facebook.png" />
-
+        <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
         <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
 
     </head>
