@@ -98,6 +98,14 @@ body, html {
 
 }
 
+
+#catering dt {
+    width: 320px;
+    text-align: left;
+    white-space: normal;
+    padding-right: 10px;
+}
+
 /* Contact styles */
 #westregister {
     background-image: url('../images/westregister.jpg');
@@ -110,24 +118,15 @@ body, html {
 }
 
 #contact {
-    width: 100%;
     position: relative;
-    height: 500px;
     padding: 0px;
     margin: 0px;
+    width: 100%;
 }
-.contact { color: white;
-height: 100%;
+.contact {
+    color: white;
 }
 
-
-
-#catering dt {
-    width: 320px;
-    text-align: left;
-    white-space: normal;
-    padding-right: 10px;
-}
 
 
 /* Comments styles */
@@ -152,6 +151,9 @@ height: 100%;
         position: absolute;
     }
 
+    #catering dt {
+        width: 250px;
+    }
     .carousel-caption {
         text-align: center;
     }
