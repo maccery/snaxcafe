@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5adb08d0-1881-40d2-af71-2382e4e3cf17" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="5adb08d0-1881-40d2-af71-2382e4e3cf17" name="Default" comment="" />
     <ignored path="snaxcafe.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +26,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="509" column="29" selection-start="24425" selection-end="24425" vertical-scroll-proportion="0.6505824" vertical-offset="7244" max-vertical-offset="7845">
+            <state line="509" column="29" selection-start="24425" selection-end="24425" vertical-scroll-proportion="12.703827" vertical-offset="0" max-vertical-offset="7845">
               <folding>
                 <marker date="1384534799000" expanded="true" signature="1038:1072" placeholder="..." />
                 <marker date="1384534799000" expanded="true" signature="1049:1072" placeholder="..." />
@@ -51,7 +48,7 @@
       <file leaf-file-name="snaxcafe.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/snaxcafe.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="18" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="2715">
+            <state line="82" column="24" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="2715">
               <folding />
             </state>
           </provider>
@@ -86,9 +83,9 @@
       <list>
         <option value="$PROJECT_DIR$/js/hashchange.js" />
         <option value="$PROJECT_DIR$/js/maps.js" />
-        <option value="$PROJECT_DIR$/css/snaxcafe.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/css/snaxcafe.css" />
       </list>
     </option>
   </component>
@@ -364,14 +361,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/snaxcafe.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="18" selection-start="1110" selection-end="1110" vertical-scroll-proportion="0.0" vertical-offset="1140" max-vertical-offset="2715">
+        <state line="82" column="24" selection-start="1194" selection-end="1194" vertical-scroll-proportion="0.0" vertical-offset="915" max-vertical-offset="2715">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="509" column="29" selection-start="24425" selection-end="24425" vertical-scroll-proportion="0.6505824" vertical-offset="7244" max-vertical-offset="7845">
+        <state line="509" column="29" selection-start="24425" selection-end="24425" vertical-scroll-proportion="12.703827" vertical-offset="0" max-vertical-offset="7845">
           <folding>
             <marker date="1384534799000" expanded="true" signature="1038:1072" placeholder="..." />
             <marker date="1384534799000" expanded="true" signature="1049:1072" placeholder="..." />

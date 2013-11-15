@@ -1,8 +1,11 @@
 <?php
     function isOpen($cafe) {
         if($cafe=='west') {
+        date_default_timezone_set("Europe/London");
             if((date('N')<=5) && date('Hi')>=0630 && date('Hi')<=1700) {
+             echo 'hey';
                 return true;
+               
             }elseif((date('N')==6) && date('Hi')>=0700 && date('Hi')<=1700) {
                 return true;
             }elseif((date('N')==7) && date('Hi')>=0730 && date('Hi')<=1700) {
@@ -24,7 +27,7 @@
         }
     }
 $open = '<button type="button" class="btn btn-success btn-lg">OPEN</button>';
-$closed = '<button type="button" class="btn btn-fail btn-lg">CLOSED</button>';
+$closed = '<button type="button" class="btn btn-danger btn-lg">CLOSED</button>';
 
 ?>
 
@@ -34,7 +37,7 @@ $closed = '<button type="button" class="btn btn-fail btn-lg">CLOSED</button>';
         <meta charset="utf-8">
         <title>SnaxCafe Edinburgh</title>
         <link rel="stylesheet" href="css/bootstrap.css"  type="text/css"/>
-        <link rel="stylesheet" href="css/snaxcafe.css" type="text/css"/>
+        <link rel="stylesheet" href="css/snaxcafe.css?v=56" type="text/css"/>
         <meta name="keywords" content="cafe, delivery breakfast, breakfast, cooked breakfast, english breakfast, cooked breakfast edinburgh, cooked breakfast delivery, takeaway edinburgh, paninis, sandwiches, snax cafe, cafe meadows, cafe new town " />
         <meta name="copyright" content="Copyright SnaxCafe - 2013">
         <meta name="author" content="Maccery.com">

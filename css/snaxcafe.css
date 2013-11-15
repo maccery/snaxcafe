@@ -25,10 +25,11 @@ body, html {
 /* Carousel styles */
 
 .cover1 {
-    background: url('../images/bacon.jpg') no-repeat center center fixed;
+    background-image: url('../images/bacon.jpg');
 }
 .cover2 {
-    background: url('../images/english.JPG') no-repeat center center fixed;
+    background-image: url('../images/english.JPG');
+    
 }
 
 .carousel-caption h1 {
@@ -80,7 +81,12 @@ body, html {
 
 /* Blackboard styles */
 #blackboard {
-    background: url('../images/blackboard.jpg') no-repeat center center fixed;
+    background-image: url('../images/blackboard.jpg');
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-position-x: 0%;
+	background-position-y: 0%;
     color: white;
     width: 100%;
 
