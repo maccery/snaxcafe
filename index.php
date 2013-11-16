@@ -2,23 +2,21 @@
     function isOpen($cafe) {
         if($cafe=='west') {
         date_default_timezone_set("Europe/London");
-            if((date('N')<=5) && date('Hi')>=0630 && date('Hi')<=1700) {
-             echo 'hey';
+            if((date('N')<=5) && date('Hi')>=0630 && date('Hi')<1700) {
                 return true;
-               
-            }elseif((date('N')==6) && date('Hi')>=0700 && date('Hi')<=1700) {
+            }elseif((date('N')==6) && date('Hi')>=0700 && date('Hi')<1700) {
                 return true;
-            }elseif((date('N')==7) && date('Hi')>=0730 && date('Hi')<=1700) {
+            }elseif((date('N')==7) && date('Hi')>=0730 && date('Hi')<1700) {
                 return true;
             }else{
                 return false;
             }
         }else{
-            if((date('N')<=5) && date('Hi')>=0700 && date('Hi')<=1700) {
+            if((date('N')<=5) && date('Hi')>=0700 && date('Hi')<1700) {
                 return true;
-            }elseif((date('N')==6) && date('Hi')>=0700 && date('Hi')<=1800) {
+            }elseif((date('N')==6) && date('Hi')>=0700 && date('Hi')<1800) {
                 return true;
-            }elseif((date('N')==7) && date('Hi')>="0800" && date('Hi')<=1800) {
+            }elseif((date('N')==7) && date('Hi')>="0800" && date('Hi')<1800) {
                 return true;
             }else{
                 return false;
@@ -72,10 +70,10 @@ $closed = '<button type="button" class="btn btn-danger btn-lg">CLOSED</button>';
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#welcome">Home</a></li>
                     <li><a href="#blackboard">Menu</a></li>
-                    <li><a href="#map">Maps</a></li>
+                    <li><a href="#map">Find Us</a></li>
                     <li><a href="#catering">Catering</a></li>
                     <li><a href="#comments">Customer Comments</a></li>
-                    <li><a href="#contact">Opening Hours/Contact</a></li>
+                    <li><a href="#contact">Opening Hours</a></li>
                 </ul>
             </div>
         </div>
@@ -94,13 +92,13 @@ $closed = '<button type="button" class="btn btn-danger btn-lg">CLOSED</button>';
                     <div class="carousel-caption">
 
                         <h1>Hungover?</h1>
-                        <h2>Get a bacon roll delivered to your flat to ease the crippling pain.</h2>
+                        <h2>Hungry? Head to Snax Cafe all day every day.</h2>
                     </div>
                 </div>
                 <div class="item cover2">
                     <div class="carousel-caption">
                         <h1>Hungry?</h1>
-                        <h2>We'll deliver you a cooked breakfast to your door.</h2>
+                        <h2>Delivery service now available. See below for details.</h2>
                     </div>
                 </div>
 
@@ -114,13 +112,13 @@ $closed = '<button type="button" class="btn btn-danger btn-lg">CLOSED</button>';
             </a>
         </div>
         <div class="container" id="blackboard">
-            <h1>Get in ma belly</h1>
-            <a href="#contact"><button type="button" class="btn btn-danger btn-lg">Booking hotline</button></a>
+            <h1>Menu</h1>
+            <a href="#delivery"><button type="button" class="btn btn-danger btn-lg">Delivery Service</button></a>
             <div class="row">
                 <div class="col-md-3">
                     <dl class="dl-horizontal menu">
                         <h2>Breakfast rolls</h2>
-                        <dt >Fried egg</dt>
+                        <dt>Fried egg</dt>
                         <dd>£1.20</dd>
                         <dt>Tattie Scone</dt>
                         <dd>£1.20</dd>
@@ -471,7 +469,7 @@ $closed = '<button type="button" class="btn btn-danger btn-lg">CLOSED</button>';
 
             <div id="westregister" class="col-md-6 jumbotron contact">
                 <h1>West Register Street (City Centre)</h1>
-                <h2>0131 557 8688</h2>
+
                 <h2><a href="mailto:info@snaxcafe.com"><button type="button" class="btn btn-primary btn-lg">info@snaxcafe.com</button></a></h2>
                 <dl>
                     <dt>Monday to Friday</dt>
@@ -518,4 +516,3 @@ $closed = '<button type="button" class="btn btn-danger btn-lg">CLOSED</button>';
 
     </body>
 </html>
-}
