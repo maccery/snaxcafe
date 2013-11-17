@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5adb08d0-1881-40d2-af71-2382e4e3cf17" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/bacon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/buccleuch.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/english.JPG" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/westregister.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/blackboard.jpg" afterPath="$PROJECT_DIR$/images/blackboard.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/closed.png" afterPath="$PROJECT_DIR$/images/closed.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo.png" afterPath="$PROJECT_DIR$/images/logo.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/open.png" afterPath="$PROJECT_DIR$/images/open.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/maps.js" afterPath="$PROJECT_DIR$/js/maps.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/snaxcafe.css" afterPath="$PROJECT_DIR$/css/snaxcafe.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="snaxcafe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,7 +51,16 @@
       <file leaf-file-name="snaxcafe.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/snaxcafe.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="10" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.5637255" vertical-offset="720" max-vertical-offset="3240">
+            <state line="159" column="17" selection-start="2517" selection-end="2517" vertical-scroll-proportion="0.90686274" vertical-offset="1830" max-vertical-offset="3270">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maps.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/maps.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="27" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -94,9 +94,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/js/hashchange.js" />
-        <option value="$PROJECT_DIR$/js/maps.js" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/maps.js" />
         <option value="$PROJECT_DIR$/css/snaxcafe.css" />
       </list>
     </option>
@@ -149,6 +149,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="snaxcafe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snaxcafe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snaxcafe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snaxcafe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snaxcafe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -453,11 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/maps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="777" selection-end="777" vertical-scroll-proportion="0.6420048" vertical-offset="106" max-vertical-offset="645" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="354" column="14" selection-start="16124" selection-end="16124" vertical-scroll-proportion="-5.3235292" vertical-offset="4948" max-vertical-offset="8010">
@@ -478,9 +501,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/maps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="27" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/snaxcafe.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="10" selection-start="1079" selection-end="1079" vertical-scroll-proportion="0.5637255" vertical-offset="720" max-vertical-offset="3240">
+        <state line="159" column="17" selection-start="2517" selection-end="2517" vertical-scroll-proportion="0.90686274" vertical-offset="1830" max-vertical-offset="3270">
           <folding />
         </state>
       </provider>
