@@ -78,7 +78,7 @@ $closed = '<button type="button" class="btn btn-danger btn-lg">CLOSED</button>';
                 </ul>
             </div>
         </div>
-        <img src="images/logo.png" class="img-responsive" style="position: absolute; width: 300px; z-index: 11;">
+        <img src="images/logo.png" class="img-responsive" id="logo">
         <div id="welcome" class="carousel slide" data-ride="carousel">
             <a href="#contact"><?php if(isOpen('west')||isOpen('buccleuch')) { echo "<img src='images/open.png' class='open'>"; }else{ echo "<img src='images/closed.png' class='open'>"; } ?></a>
             <ol class="carousel-indicators">
