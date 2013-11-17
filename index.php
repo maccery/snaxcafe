@@ -69,7 +69,8 @@ $closed = '<button type="button" class="btn btn-danger btn-lg">CLOSED</button>';
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="#welcome">Home</a></li>
-                    <li><a href="#blackboard">Menu</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#delivery">Delivery Service</a></li>
                     <li><a href="#map">Find Us</a></li>
                     <li><a href="#catering">Catering</a></li>
                     <li><a href="#comments">Customer Comments</a></li>
@@ -111,7 +112,7 @@ $closed = '<button type="button" class="btn btn-danger btn-lg">CLOSED</button>';
                 <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
         </div>
-        <div class="container" id="blackboard">
+        <div class="container" id="menu">
             <h1>Menu</h1>
             <a href="#delivery"><button type="button" class="btn btn-danger btn-lg">Delivery Service</button></a>
             <div class="row">
@@ -352,6 +353,12 @@ $closed = '<button type="button" class="btn btn-danger btn-lg">CLOSED</button>';
                 </div>
             </div>
         </div>
+        <div id="delivery" class="container">
+
+           <img src="images/promo.jpg"  class="img-responsive">
+
+        </div>
+
         <div id="map">
 
         </div>
@@ -464,7 +471,6 @@ $closed = '<button type="button" class="btn btn-danger btn-lg">CLOSED</button>';
                 <small>Lindsay O, Edinburgh</small>
             </blockquote>
         </div>
-
         <div id="contact" class="container">
 
             <div id="westregister" class="col-md-6 jumbotron contact">
@@ -487,8 +493,8 @@ $closed = '<button type="button" class="btn btn-danger btn-lg">CLOSED</button>';
             <div id="buccleuch" class="col-md-6 jumbotron contact">
 
                 <h1>Buccleuch Street (Meadows)</h1>
-                <h2>0131 662 9009</h2>
                 <h2><a href="mailto:info@snaxcafe.com"><button type="button" class="btn btn-primary btn-lg">info@snaxcafe.com</button></a></h2>
+                <h2>0131 662 9009</h2>
                 <dl>
                     <dt>Monday to Friday</dt>
                     <dd>7.00am to 5.00pm</dd>
@@ -503,7 +509,11 @@ $closed = '<button type="button" class="btn btn-danger btn-lg">CLOSED</button>';
                 <p><?php if(isOpen('buccleuch')) { echo $open; }else{ echo $closed; } ?></p>
 
             </div>
+        </div>
 
+        <div id="copyright" class="container">
+            <hr></hr>
+            <p>Copyright &copy; <?php echo date('Y'); ?> <a href="http://maccery.com" target="_blank">Maccery</a>. Design and coded by <a href="http://maccery.com" target="_blank">Maccery</a>.</p>
         </div>
         <script type="text/javascript"
                 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCXvFAkVLcBpuajrGcjUZwMaAklYeeh6c&sensor=false">

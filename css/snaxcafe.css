@@ -19,16 +19,22 @@ body, html {
     position: absolute;
     width: 300px;
     z-index: 11;
+
 }
+
 
 
 /* Carousel styles */
 
 .cover1 {
-    background-image: url('../images/bacon.jpg');
+    background: url('../images/cover1.jpg') no-repeat;
+    background-position: 0 0;
+    background-size: cover;
 }
 .cover2 {
-    background-image: url('../images/english.JPG');
+    background: url('../images/cover2.jpg') no-repeat;
+    background-position: 0 0;
+    background-size: cover;
     
 }
 
@@ -52,6 +58,21 @@ body, html {
 }
 
 
+/* Delivery styles */
+#delivery {
+    background-image: url('../images/deliverybg.jpg');
+    background-repeat: repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    color: white;
+    width: 100%;
+}
+#delivery .img-responsive {
+    margin: 0 auto;
+}
+
 /* Navigation styles */
 
 .navbar {
@@ -60,7 +81,6 @@ body, html {
     -moz-opacity: 0.7;
     -khtml-opacity: 0.7;
     opacity: 0.7;
-
 }
 
 /* Welcome styles */
@@ -80,7 +100,7 @@ body, html {
 }
 
 /* Blackboard styles */
-#blackboard {
+#menu {
     background-image: url('../images/blackboard.jpg');
     background-repeat: repeat;
     background-position: center center;
@@ -122,13 +142,13 @@ body, html {
 
 /* Contact styles */
 #westregister {
-    background-image: url('../images/westregister.jpg');
-
+    background-image: url('../images/snaxcafe1.jpg');
+    height: 100%;
 }
 
 #buccleuch {
-    background-image: url('../images/buccleuch.jpg');
-
+    background-image: url('../images/snaxcafe2.jpg');
+    height: 100%;
 }
 
 #contact {
@@ -153,6 +173,13 @@ body, html {
 @media (max-width: 768px) {
     #blackboard h1 {
         font-size: 60px;
+    }
+    .navbar {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=95)";
+        filter: alpha(opacity=95);
+        -moz-opacity: 0.95;
+        -khtml-opacity: 0.95;
+        opacity: 0.95;
     }
 }
 @media (max-width: 600px) {
@@ -179,4 +206,6 @@ body, html {
     .carousel-caption h1 {
         font-size: 45px;;
     }
+
+
 }
