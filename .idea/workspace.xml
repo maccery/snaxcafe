@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5adb08d0-1881-40d2-af71-2382e4e3cf17" name="Default" comment="" />
+    <list default="true" id="5adb08d0-1881-40d2-af71-2382e4e3cf17" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/deliverybg.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/cover1.jpg" afterPath="$PROJECT_DIR$/images/cover1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/cover2.jpg" afterPath="$PROJECT_DIR$/images/cover2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/snaxcafe1.jpg" afterPath="$PROJECT_DIR$/images/snaxcafe1.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/snaxcafe2.jpg" afterPath="$PROJECT_DIR$/images/snaxcafe2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="snaxcafe.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,10 +31,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="481" column="32" selection-start="23491" selection-end="23515" vertical-scroll-proportion="0.48833033" vertical-offset="6943" max-vertical-offset="7500">
+            <state line="62" column="49" selection-start="3709" selection-end="3709" vertical-scroll-proportion="0.15706806" vertical-offset="870" max-vertical-offset="7485">
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -37,25 +45,7 @@
       <file leaf-file-name="snaxcafe.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/snaxcafe.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="66" selection-start="1065" selection-end="1065" vertical-scroll-proportion="-3.9230769" vertical-offset="1038" max-vertical-offset="3030">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="maps.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/maps.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="31" selection-start="159" selection-end="159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hashchange.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/hashchange.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="11" selection-start="2982" selection-end="2982" vertical-scroll-proportion="0.0" vertical-offset="1290" max-vertical-offset="1380">
+            <state line="165" column="22" selection-start="2466" selection-end="2466" vertical-scroll-proportion="0.0" vertical-offset="2611" max-vertical-offset="3030">
               <folding />
             </state>
           </provider>
@@ -80,10 +70,10 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/js/hashchange.js" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/js/maps.js" />
-        <option value="$PROJECT_DIR$/css/snaxcafe.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/css/snaxcafe.css" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -119,6 +109,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -161,13 +152,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snaxcafe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="snaxcafe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -176,7 +180,7 @@
     <property name="options.lastSelected" value="Configurable.PHP" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -197,7 +201,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Built-in Web Server.Unnamed">
+  <component name="RunManager" selected="PHP Built-in Web Server.Snaxcafe">
     <configuration default="false" name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/index.php">
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
@@ -222,13 +226,13 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server" server_id="d3045081-b783-4f69-81e2-d2df520ebed3" server_name="whatever">
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$/../..">
+    <configuration default="false" name="Snaxcafe" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$" port="81">
       <RunnerSettings RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="PHP Built-in Web Server.Unnamed" />
+      <item index="0" class="java.lang.String" itemvalue="PHP Built-in Web Server.Snaxcafe" />
       <item index="1" class="java.lang.String" itemvalue="PHP Script.index.php" />
     </list>
     <recent_temporary>
@@ -276,7 +280,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32882884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32882884" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -338,7 +342,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="520" column="0" selection-start="24685" selection-end="24685" vertical-scroll-proportion="0.0" vertical-offset="829" max-vertical-offset="7890">
           <folding>
@@ -361,7 +365,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="509" column="29" selection-start="24425" selection-end="24425" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7845">
           <folding>
@@ -384,7 +388,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="117" selection-start="3918" selection-end="3918" vertical-scroll-proportion="0.0" vertical-offset="990" max-vertical-offset="7845">
           <folding>
@@ -407,19 +411,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="446" column="21" selection-start="14953" selection-end="14953" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6915">
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/hashchange.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="11" selection-start="2982" selection-end="2982" vertical-scroll-proportion="0.0" vertical-offset="901" max-vertical-offset="1380">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -430,16 +427,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/snaxcafe.css">
+    <entry file="file://$PROJECT_DIR$/js/hashchange.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="66" selection-start="1065" selection-end="1065" vertical-scroll-proportion="-3.9230769" vertical-offset="1038" max-vertical-offset="3030">
+        <state line="86" column="11" selection-start="2982" selection-end="2982" vertical-scroll-proportion="0.78520286" vertical-offset="961" max-vertical-offset="1380">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/snaxcafe.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="481" column="32" selection-start="23491" selection-end="23515" vertical-scroll-proportion="0.48833033" vertical-offset="6943" max-vertical-offset="7500">
+        <state line="165" column="22" selection-start="2466" selection-end="2466" vertical-scroll-proportion="0.0" vertical-offset="2611" max-vertical-offset="3030">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="49" selection-start="3709" selection-end="3709" vertical-scroll-proportion="0.15706806" vertical-offset="870" max-vertical-offset="7485">
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

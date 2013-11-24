@@ -26,16 +26,15 @@
 
         <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="navbar-header">
-
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <div class="navbar-social">
-                    <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FEdinburghDeliveryBreakfast&amp;width=100&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100px; height:21px;" allowTransparency="true"></iframe>
-                </div>
+				<div class="navbar-social">
+					<iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FEdinburghDeliveryBreakfast&amp;width=80&amp;layout=button_count&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=21&amp;" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:80px; height:21px;" allowTransparency="true"></iframe>
+				</div>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -446,8 +445,8 @@
 
             <div id="westregister" class="col-md-6 jumbotron contact">
                 <h1>West Register Street (City Centre)</h1>
-
                 <h2><a href="mailto:info@snaxcafe.com"><button type="button" class="btn btn-primary btn-lg">info@snaxcafe.com</button></a></h2>
+				<h2>Free deliveries by foot</h2>
                 <dl>
                     <dt>Monday to Friday</dt>
                     <dd>6.30am to 5.00pm</dd>
@@ -479,7 +478,7 @@
 
         <div id="copyright" class="container">
             <hr></hr>
-            <p>Copyright &copy; <?php echo date('Y'); ?> <a href="http://maccery.com" target="_blank">Maccery</a>. Design and coded by <a href="http://maccery.com" target="_blank">Maccery</a>.</p>
+            <p>Copyright &copy; <?php date_default_timezone_set('Europe/London'); echo date('Y'); ?> <a href="http://maccery.com" target="_blank">Maccery</a>. Design and coded by <a href="http://maccery.com" target="_blank">Maccery</a>.</p>
         </div>
         <script type="text/javascript"
                 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCCXvFAkVLcBpuajrGcjUZwMaAklYeeh6c&sensor=false">
