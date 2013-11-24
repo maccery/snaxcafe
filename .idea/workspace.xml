@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5adb08d0-1881-40d2-af71-2382e4e3cf17" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/css/bootstrap-theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/css/bootstrap-theme.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="$PROJECT_DIR$/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bucleuch_menu.html" afterPath="$PROJECT_DIR$/bucleuch_menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/hashchange.js" afterPath="$PROJECT_DIR$/js/hashchange.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/maps.js" afterPath="$PROJECT_DIR$/js/maps.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/snaxcafe.css" afterPath="$PROJECT_DIR$/css/snaxcafe.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/west_register_menu.html" afterPath="$PROJECT_DIR$/west_register_menu.html" />
     </list>
     <ignored path="snaxcafe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +39,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="328" column="0" selection-start="11995" selection-end="11995" vertical-scroll-proportion="0.28370786" vertical-offset="4819" max-vertical-offset="11160">
+            <state line="96" column="0" selection-start="3957" selection-end="3957" vertical-scroll-proportion="-22.426966" vertical-offset="9424" max-vertical-offset="12135">
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -40,7 +50,7 @@
       <file leaf-file-name="west_register_menu.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/west_register_menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="8" selection-start="303" selection-end="303" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="3645">
+            <state line="13" column="17" selection-start="410" selection-end="410" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="3840">
               <folding />
             </state>
           </provider>
@@ -49,7 +59,7 @@
       <file leaf-file-name="bucleuch_menu.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bucleuch_menu.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="219" column="46" selection-start="0" selection-end="7840" vertical-scroll-proportion="-3.9583333" vertical-offset="3190" max-vertical-offset="3645">
+            <state line="232" column="46" selection-start="0" selection-end="8035" vertical-scroll-proportion="-3.9583333" vertical-offset="3385" max-vertical-offset="3840">
               <folding />
             </state>
           </provider>
@@ -58,7 +68,7 @@
       <file leaf-file-name="snaxcafe.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/snaxcafe.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="24" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.0" vertical-offset="1290" max-vertical-offset="3060">
+            <state line="104" column="24" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3090">
               <folding />
             </state>
           </provider>
@@ -192,7 +202,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="Configurable.PHP" />
+    <property name="options.lastSelected" value="preferences.sourceCode.HTML" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -435,30 +445,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/snaxcafe.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="24" selection-start="1621" selection-end="1621" vertical-scroll-proportion="0.0" vertical-offset="1290" max-vertical-offset="3060">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/west_register_menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="8" selection-start="303" selection-end="303" vertical-scroll-proportion="-8.75" vertical-offset="0" max-vertical-offset="3645">
+        <state line="13" column="17" selection-start="410" selection-end="410" vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="3840">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bucleuch_menu.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="46" selection-start="0" selection-end="7840" vertical-scroll-proportion="-3.9583333" vertical-offset="3190" max-vertical-offset="3645">
+        <state line="232" column="46" selection-start="0" selection-end="8035" vertical-scroll-proportion="-3.9583333" vertical-offset="3385" max-vertical-offset="3840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/snaxcafe.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="24" selection-start="1622" selection-end="1622" vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="3090">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="328" column="0" selection-start="11995" selection-end="11995" vertical-scroll-proportion="0.28370786" vertical-offset="4819" max-vertical-offset="11160">
+        <state line="96" column="0" selection-start="3957" selection-end="3957" vertical-scroll-proportion="-22.426966" vertical-offset="9424" max-vertical-offset="12135">
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

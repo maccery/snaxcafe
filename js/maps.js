@@ -1,4 +1,3 @@
-
 function initialize() {
     var mapOptions = {
         center: new google.maps.LatLng(55.953252, -3.188267),
@@ -15,17 +14,17 @@ function initialize() {
     var marker = new google.maps.Marker({
         position: westRegisterStreet,
         map: map,
-        title:"18 West Register Street"
+        title: "18 West Register Street"
     });
     var markerTwo = new google.maps.Marker({
         position: buccleuchStreet,
         map: map,
-        title:"118 Buccleuch Street"
+        title: "118 Buccleuch Street"
     });
 }
 google.maps.event.addDomListener(window, 'load', initialize);
 
-$('a[href^="#"]').on('click',function (e) {
+$('a[href^="#"]').on('click', function (e) {
     e.preventDefault();
 
     var target = this.hash,

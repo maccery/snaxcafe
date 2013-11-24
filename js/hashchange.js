@@ -23,13 +23,13 @@
  *  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
  *  DEALINGS IN THE SOFTWARE.
  **/
-(function($) {
-    $.fn.hashchange = function(fn) {
+(function ($) {
+    $.fn.hashchange = function (fn) {
         $(window).bind("jQuery.hashchange", fn);
         return this;
     };
 
-    $.observeHashChange = function(options) {
+    $.observeHashChange = function (options) {
         var opts = $.extend({}, $.observeHashChange.defaults, options);
         if (isHashChangeEventSupported()) {
             nativeVersion();
@@ -44,7 +44,7 @@
     var interval = 0;
 
     $.observeHashChange.defaults = {
-        interval : 500
+        interval: 500
     };
 
     function isHashChangeEventSupported() {
