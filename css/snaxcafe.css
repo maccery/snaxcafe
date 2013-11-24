@@ -105,17 +105,16 @@ body, html {
     padding-right: 20px;
 }
 
-#blackboard dt {
+#menu dt {
     width: 180px;
     white-space: normal;
     padding-right: 10px;
     text-align: left;
     padding: 5px;
-
 }
 
-#blackboard h1 {
-    font-size: 100px;
+#menu h1 {
+    font-size: 70px;
 }
 
 /* Catering styles */
@@ -166,7 +165,7 @@ body, html {
 /* Responsive styles */
 
 @media (max-width: 768px) {
-    #blackboard h1 {
+    #menu h1 {
         font-size: 60px;
     }
 

@@ -89,18 +89,20 @@
 			<span class="glyphicon glyphicon-chevron-right"></span>
 		</a>
 	</div>
-	<div id="menu" class="slide" data-ride="carousel">
+	<div id="menu" class="slide">
 
 	<h1>Menu</h1>
-	<a href="#menu" data-slide-to="0" class="active">Buccleuch Street</a> - <a href="#menu" data-slide-to="1">West Register
-		Street</a>
+	<a href="#menu" data-slide-to="0">West Register Street (Delivery Menu)</a> - <a href="#menu" data-slide-to="1" class="active">Buccleuch Street</a>
 
 		<div class="carousel-inner">
 			<div class="item active">
+			<h2>West Register Street (Delivery Menu)</h2>
+			<p>Free on-foot deliveries on orders over £5.00</p>
+			<a href="#delivery"><button type="button" class="btn btn-danger btn-lg">Delivery Service</button></a>
 				<div class="row">
 					<div class="col-md-3">
 						<dl class="dl-horizontal menu">
-							<h2>Breakfast rolls</h2>
+							<h3>Breakfast rolls</h3>
 							<dt>Fried egg</dt>
 							<dd>£1.20</dd>
 							<dt>Tattie Scone</dt>
@@ -115,28 +117,29 @@
 							<dd>£1.80</dd>
 							<dt>Sausage & Egg</dt>
 							<dd>£1.80</dd>
-
-
 							<dt>Scrambled egg</dt>
 							<dd>£1.20</dd>
-							<dt>Tattie Scone</dt>
-							<dd>£1.20</dd>
-							<dt>Linked Sausage</dt>
+							<dt>Hash Brown</dt>
 							<dd>£1.30</dd>
-							<dt>Black Pudding</dt>
+							<dt>Sliced Sausage</dt>
 							<dd>£1.30</dd>
-							<dt>Bacon</dt>
-							<dd>£1.40</dd>
-							<dt>Bacon & Mushroom</dt>
+							<dt>Haggis</dt>
+							<dd>£1.30</dd>
+							<dt>Bacon & Egg</dt>
 							<dd>£1.80</dd>
-							<dt>Sausage & Egg</dt>
+							<dt>Bacon & Fried Tomato</dt>
 							<dd>£1.80</dd>
-
+							<dt>Sausage, Bacon & Egg</dt>
+							<dd>£1.80</dd>
+							<dt>Doublers (any 2 items)</dt>
+							<dd>£1.80</dd>
+							<dt>Sausage, Bacon & Egg</dt>
+							<dd>£1.90</dd>
 						</dl>
 					</div>
 					<div class="col-md-6">
 						<dl class="dl-horizontal menu">
-							<h2>Breakfasts</h2>
+							<h3>Breakfasts</h3>
 							<dt>The 'All-Day' Breakfast<br>£3.00</dt>
 							<dd>2 Link Sausage, Bacon, Fried Egg,
 								Black Pudding, Beans & Buttered Roll
@@ -168,28 +171,28 @@
 					</div>
 					<div class="col-md-3">
 						<dl class="dl-horizontal menu">
-							<h2>Hot Drinks</h2>
+							<h3>Hot Drinks</h3>
 							<dt>Instant Coffee</dt>
-							<dd>£1.00/1.20</dd>
+							<dd>£1.00/£1.20</dd>
 							<dt>Ground Coffee</dt>
-							<dd>£2.00</dd>
+							<dd>£1.30/£1.60</dd>
 							<dt>Cappuccino</dt>
-							<dd>£2.00</dd>
-							<dt>Home-Made Soup</dt>
-							<dd>£2.30</dd>
+							<dd>£1.50/£1.90</dd>
+							<dt>Homemade Soup</dt>
+							<dd>£1.50/£1.90</dd>
 							<dt>Tea</dt>
-							<dd>£1.90</dd>
+							<dd>£0.90/£1.10</dd>
 							<dt>Latte</dt>
-							<dd>£1.90</dd>
+							<dd>£1.50/£1.90</dd>
 							<dt>Hot Chocolate</dt>
-							<dd>£1.90</dd>
+							<dd>£1.50/£1.90</dd>
 						</dl>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-3">
 						<dl class="dl-horizontal menu">
-							<h2>Main Meals</h2>
+							<h3>Main Meals</h3>
 							<dt>1/4 lb Cheeseburger & Chips</dt>
 							<dd>£3.20</dd>
 							<dt>Double 1/4 lb Cheeseburger & Chips</dt>
@@ -214,7 +217,7 @@
 					</div>
 					<div class="col-md-3">
 						<dl class="dl-horizontal menu">
-							<h2>Homemade Meals</h2>
+							<h3>Homemade Meals</h3>
 							<dt>Chicken Curry & Chips</dt>
 							<dd>£3.60</dd>
 							<dt>Beef Chilli & Chips</dt>
@@ -226,7 +229,7 @@
 
 					<div class="col-md-3">
 						<dl class="dl-horizontal menu">
-							<h2>Baked Potatoes</h2>
+							<h3>Baked Potatoes</h3>
 							<dt>Single Cold Filling</dt>
 							<dd>£3.00</dd>
 							<dt>Baked Beans</dt>
@@ -243,7 +246,7 @@
 					</div>
 					<div class="col-md-3">
 						<dl class="dl-horizontal menu">
-							<h2>Hot Dogs</h2>
+							<h3>Hot Dogs</h3>
 							<dt>Hot Dog</dt>
 							<dd>£1.80 (with Onions, Mustard & Ketchup)</dd>
 							<dt>Chilli Dog</dt>
@@ -256,9 +259,9 @@
 				<div class="row">
 					<div class="col-md-12">
 						<dl class="dl-horizontal menu">
-							<h2>The Salad Bar</h2>
+							<h3>The Salad Bar</h3>
 							<dt>Morning Rolls</dt>
-							<dd>£1.00/1.20</dd>
+							<dd>£1.00/£1.20</dd>
 							<dt>Snax Subs</dt>
 							<dd>£2.20</dd>
 							<dt>Club Sandwich</dt>
@@ -290,7 +293,7 @@
 				<div class="row">
 					<div class="col-md-3">
 						<dl class="dl-horizontal menu">
-							<h2>Toasties</h2>
+							<h3>Toasties</h3>
 							<dt>Cheese</dt>
 							<dd>£1.60</dd>
 							<dt>Cheese & Pickle</dt>
@@ -307,7 +310,7 @@
 					</div>
 					<div class="col-md-3">
 						<dl class="dl-horizontal menu">
-							<h2>Chips</h2>
+							<h3>Chips</h3>
 							<dt>Chips Small/Large</dt>
 							<dd>£1.40/1.60</dd>
 							<dt>Chips & Curry Sauce</dt>
@@ -326,7 +329,7 @@
 					</div>
 					<div class="col-md-3">
 						<dl class="dl-horizontal menu">
-							<h2>Hot Paninis</h2>
+							<h3>Hot Paninis</h3>
 							<dt>Turkey, Brie & Cranberry</dt>
 							<dd>£2.80</dd>
 							<dt>Ham, Mozzarella & Sun Dried Tomato</dt>
@@ -348,13 +351,14 @@
 						</dl>
 					</div>
 				</div>
-				</div>
-				<div class="item">
-
+			</div>
+			<div class="item">
+			<h2>Buccleuch Street</h2>
+			<a href="#delivery"><button type="button" class="btn btn-danger btn-lg">Delivery Service</button></a>
 				<div class="row">
 					<div class="col-md-3">
 						<dl class="dl-horizontal menu">
-							<h2>Breakfast rolls</h2>
+							<h3>Breakfast rolls</h3>
 							<dt>Fried egg</dt>
 							<dd>£1.20</dd>
 							<dt>Tattie Scone</dt>
@@ -369,28 +373,29 @@
 							<dd>£1.80</dd>
 							<dt>Sausage & Egg</dt>
 							<dd>£1.80</dd>
-
-
 							<dt>Scrambled egg</dt>
 							<dd>£1.20</dd>
-							<dt>Tattie Scone</dt>
-							<dd>£1.20</dd>
-							<dt>Linked Sausage</dt>
+							<dt>Hash Brown</dt>
 							<dd>£1.30</dd>
-							<dt>Black Pudding</dt>
+							<dt>Sliced Sausage</dt>
 							<dd>£1.30</dd>
-							<dt>Bacon</dt>
-							<dd>£1.40</dd>
-							<dt>Bacon & Mushroom</dt>
+							<dt>Haggis</dt>
+							<dd>£1.30</dd>
+							<dt>Bacon & Egg</dt>
 							<dd>£1.80</dd>
-							<dt>Sausage & Egg</dt>
+							<dt>Bacon & Fried Tomato</dt>
 							<dd>£1.80</dd>
-
+							<dt>Sausage, Bacon & Egg</dt>
+							<dd>£1.80</dd>
+							<dt>Doublers (any 2 items)</dt>
+							<dd>£1.80</dd>
+							<dt>Triplers (any 3 items)</dt>
+							<dd>£2.00</dd>
 						</dl>
 					</div>
 					<div class="col-md-6">
 						<dl class="dl-horizontal menu">
-							<h2>Breakfasts</h2>
+							<h3>Breakfasts</h3>
 							<dt>The 'All-Day' Breakfast<br>£3.00</dt>
 							<dd>2 Link Sausage, Bacon, Fried Egg,
 								Black Pudding, Beans & Buttered Roll
@@ -406,7 +411,7 @@
 								Brown, Haggis, Sliced Sausage,
 								Beans,Fried Tomato & Buttered Roll
 							</dd>
-							<dt>The 'Veggie' Breakfast<br>£3.00</dt>
+							<dt>The 'Veggie' Breakfast<br>£2.90</dt>
 							<dd>Fried Egg, Hash Brown, Tattie Scone,
 								Beans, Fried Tomato & Buttered Roll
 							</dd>
@@ -416,111 +421,108 @@
 							</dd>
 							<dt>The 'Brunch'<br>£3.50</dt>
 							<dd>2 Link Sausage, Bacon, Fried Egg, Beans & Chips</dd>
-
-
 						</dl>
 					</div>
 					<div class="col-md-3">
 						<dl class="dl-horizontal menu">
-							<h2>Hot Drinks</h2>
-							<dt>Instant Coffee</dt>
-							<dd>£1.00/1.20</dd>
-							<dt>Ground Coffee</dt>
-							<dd>£2.00</dd>
+							<h3>Hot Drinks</h3>
+							<dt>Americano</dt>
+							<dd>£1.30/£1.80</dd>
+							<dt>Cappuccino</dt>
+							<dd>£1.50/£2.00</dd>
 							<dt>Cappuccino</dt>
 							<dd>£2.00</dd>
-							<dt>Home-Made Soup</dt>
-							<dd>£2.30</dd>
+							<dt>Espresso</dt>
+							<dd>£1.00/£1.30</dd>
+							<dt>Mocha</dt>
+							<dd>£1.60/£2.10</dd>
+							<dt>Homemade Soup</dt>
+							<dd>£1.40/£1.80</dd>
 							<dt>Tea</dt>
-							<dd>£1.90</dd>
+							<dd>£1.00/£1.20</dd>
+							<dt>Pot of Tea (for 1)</dt>
+							<dd>£1.50</dd>
 							<dt>Latte</dt>
-							<dd>£1.90</dd>
+							<dd>£1.50/£2.00</dd>
 							<dt>Hot Chocolate</dt>
-							<dd>£1.90</dd>
+							<dd>£1.50/£2.00</dd>
 						</dl>
 					</div>
 				</div>
 				<div class="row">
 					<div class="col-md-3">
 						<dl class="dl-horizontal menu">
-							<h2>Main Meals</h2>
+							<h3>Main Meals</h3>
 							<dt>1/4 lb Cheeseburger & Chips</dt>
-							<dd>£3.20</dd>
+							<dd>£3.30</dd>
 							<dt>Double 1/4 lb Cheeseburger & Chips</dt>
-							<dd>£3.70</dd>
-							<dt>Double Bacon 1/4 lb Cheeseburger & Chips</dt>
-							<dd>£4.00</dd>
+							<dd>£3.80</dd>
 							<dt>Chicken Burger & Chips</dt>
 							<dd>£3.50</dd>
 							<dt>Chicken Nuggets & Chips</dt>
 							<dd>£3.50</dd>
 							<dt>Pie, Beans & Chips</dt>
-							<dd>£3.00</dd>
+							<dd>£3.30</dd>
 							<dt>Sausage, Beans & Chips</dt>
-							<dd>£3.00</dd>
+							<dd>£3.30</dd>
 							<dt>Veggie Burger & Chips</dt>
 							<dd>£3.50</dd>
 							<dt>Haggis & Chips</dt>
 							<dd>£3.20</dd>
-							<dt>Fish & Chips</dt>
-							<dd>£4.20</dd>
+							<dt>Ham, Egg & Chips</dt>
+							<dd>£3.30</dd>
 						</dl>
 					</div>
 					<div class="col-md-3">
 						<dl class="dl-horizontal menu">
-							<h2>Homemade Meals</h2>
+							<h3>Homemade Meals</h3>
 							<dt>Chicken Curry & Chips</dt>
 							<dd>£3.60</dd>
 							<dt>Beef Chilli & Chips</dt>
 							<dd>£3.60</dd>
 							<dt>Macaroni & Chips</dt>
-							<dd>£3.50</dd>
+							<dd>£3.60</dd>
 						</dl>
 					</div>
 
 					<div class="col-md-3">
 						<dl class="dl-horizontal menu">
-							<h2>Baked Potatoes</h2>
+							<h3>Baked Potatoes</h3>
 							<dt>Single Cold Filling</dt>
 							<dd>£3.00</dd>
 							<dt>Baked Beans</dt>
 							<dd>£3.00</dd>
 							<dt>Beef Chilli</dt>
-							<dd>£3.20</dd>
+							<dd>£3.50</dd>
 							<dt>Chicken Curry</dt>
-							<dd>£3.20</dd>
+							<dd>£3.50</dd>
 							<dt>Macaroni Cheese</dt>
-							<dd>£3.20</dd>
+							<dd>£3.50</dd>
 							<dt>Extra Fillings</dt>
-							<dd>£0.40</dd>
+							<dd>£0.50</dd>
 						</dl>
 					</div>
 					<div class="col-md-3">
 						<dl class="dl-horizontal menu">
-							<h2>Hot Dogs</h2>
+							<h3>Hot Dogs</h3>
 							<dt>Hot Dog</dt>
-							<dd>£1.80 (with Onions, Mustard & Ketchup)</dd>
+							<dd>£2.00 (with Onions, Mustard & Ketchup)</dd>
 							<dt>Chilli Dog</dt>
-							<dd>£2.30</dd>
+							<dd>£2.50</dd>
 						</dl>
 					</div>
-
 				</div>
 
 				<div class="row">
 					<div class="col-md-12">
 						<dl class="dl-horizontal menu">
-							<h2>The Salad Bar</h2>
+							<h3>The Salad Bar</h3>
 							<dt>Morning Rolls</dt>
-							<dd>£1.00/1.20</dd>
+							<dd>£1.00/£1.20</dd>
 							<dt>Snax Subs</dt>
 							<dd>£2.20</dd>
-							<dt>Club Sandwich</dt>
-							<dd>£2.20</dd>
-							<dt>Wraps</dt>
-							<dd>£2.50</dd>
 							<dt>Salad Boxes</dt>
-							<dd>£3.00</dd>
+							<dd>£2.75</dd>
 							<dd>One filling/One filling & Salad. Choose from White, Brown or Seeded with Chicken & Bacon can be toasted,
 								just ask.
 							</dd>
@@ -538,32 +540,28 @@
 							</li>
 						</ul>
 					</div>
-
-
 				</div>
 				<div class="row">
 					<div class="col-md-3">
 						<dl class="dl-horizontal menu">
-							<h2>Toasties</h2>
+							<h3>Toasties</h3>
 							<dt>Cheese</dt>
 							<dd>£1.60</dd>
 							<dt>Cheese & Pickle</dt>
-							<dd>£1.90</dd>
+							<dd>£2.00</dd>
 							<dt>Cheese & Ham</dt>
 							<dd>£2.00</dd>
 							<dt>Cheese & Tomato</dt>
-							<dd>£1.90</dd>
+							<dd>£2.00</dd>
 							<dt>Cheese & Onion</dt>
-							<dd>£1.90</dd>
-							<dt>Any Toastie with Chips add</dt>
-							<dd>£1.00</dd>
+							<dd>£2.00</dd>
 						</dl>
 					</div>
 					<div class="col-md-3">
 						<dl class="dl-horizontal menu">
-							<h2>Chips</h2>
-							<dt>Chips Small/Large</dt>
-							<dd>£1.40/1.60</dd>
+							<h3>Chips</h3>
+							<dt>Chips Small</dt>
+							<dd>£1.50</dd>
 							<dt>Chips & Curry Sauce</dt>
 							<dd>£2.00</dd>
 							<dt>Chips & Cheese</dt>
@@ -571,7 +569,7 @@
 							<dt>Chips, Beans & Cheese</dt>
 							<dd>£2.30</dd>
 							<dt>Chip Roll</dt>
-							<dd>£1.90</dd>
+							<dd>£1.30</dd>
 							<dt>Chips & Gravy</dt>
 							<dd>£2.00</dd>
 							<dt>Chips & Beans</dt>
@@ -580,7 +578,7 @@
 					</div>
 					<div class="col-md-3">
 						<dl class="dl-horizontal menu">
-							<h2>Hot Paninis</h2>
+							<h3>Hot Paninis</h3>
 							<dt>Turkey, Brie & Cranberry</dt>
 							<dd>£2.80</dd>
 							<dt>Ham, Mozzarella & Sun Dried Tomato</dt>
@@ -589,8 +587,6 @@
 							<dd>£2.80</dd>
 							<dt>Salami, Mozzarella & Sun Dried Tomato</dt>
 							<dd>£2.80</dd>
-							<dt>All paninis available with chips for</dt>
-							<dd>£3.70</dd>
 							<dt>Cajun Chicken, Bacon & Cheese</dt>
 							<dd>£2.80</dd>
 							<dt>Mexican Chicken & Cheese</dt>
@@ -599,6 +595,8 @@
 							<dd>£2.80</dd>
 							<dt>or 'Create-Your-Own'</dt>
 							<dd>£2.80</dd>
+							<dt>All paninis available with chips for</dt>
+							<dd>£3.80</dd>
 						</dl>
 					</div>
 				</div>
