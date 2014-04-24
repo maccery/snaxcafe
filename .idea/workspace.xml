@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5adb08d0-1881-40d2-af71-2382e4e3cf17" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/maps.js" afterPath="$PROJECT_DIR$/js/maps.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles.css" afterPath="$PROJECT_DIR$/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/variables.less" afterPath="$PROJECT_DIR$/less/variables.less" />
     </list>
     <ignored path="snaxcafe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,10 +28,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="791" column="25" selection-start="24080" selection-end="24080" vertical-scroll-proportion="-5.64" vertical-offset="13956" max-vertical-offset="16308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="global.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/global.less">
           <provider selected="true" editor-type-id="text-editor">
             <state line="65" column="1" selection-start="816" selection-end="816" vertical-scroll-proportion="-23.87755" vertical-offset="0" max-vertical-offset="1278">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="maps.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/maps.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="27" selection-start="154" selection-end="154" vertical-scroll-proportion="0.07912088" vertical-offset="0" max-vertical-offset="910">
               <folding />
             </state>
           </provider>
@@ -79,7 +94,7 @@
       <file leaf-file-name="variables.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/variables.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="108">
+            <state line="5" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="-1.8367347" vertical-offset="0" max-vertical-offset="198">
               <folding />
             </state>
           </provider>
@@ -94,10 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.less" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="styles.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/styles.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="20" selection-start="212" selection-end="212" vertical-scroll-proportion="0.18305084" vertical-offset="0" max-vertical-offset="885">
+            <state line="9" column="20" selection-start="212" selection-end="212" vertical-scroll-proportion="-6.48" vertical-offset="0" max-vertical-offset="270">
               <folding />
             </state>
           </provider>
@@ -121,11 +136,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/menu.php" />
         <option value="$PROJECT_DIR$/buccleuch_menu.xml" />
         <option value="$PROJECT_DIR$/css/snaxcafe.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/less/carousel.less" />
         <option value="$PROJECT_DIR$/less/delivery.less" />
         <option value="$PROJECT_DIR$/less/blackboard.less" />
@@ -137,6 +149,9 @@
         <option value="$PROJECT_DIR$/less/responsive.less" />
         <option value="$PROJECT_DIR$/less/global.less" />
         <option value="$PROJECT_DIR$/less/styles.less" />
+        <option value="$PROJECT_DIR$/less/variables.less" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/maps.js" />
       </list>
     </option>
   </component>
@@ -405,20 +420,6 @@
         <state line="86" column="11" selection-start="2982" selection-end="2982" vertical-scroll-proportion="0.78520286" vertical-offset="961" max-vertical-offset="1380" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/maps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="31" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0989011" vertical-offset="0" max-vertical-offset="910">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/variables.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="910">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/carousel.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="1" selection-start="485" selection-end="485" vertical-scroll-proportion="-11.755102" vertical-offset="0" max-vertical-offset="684">
@@ -454,13 +455,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="67" selection-start="186" selection-end="186" vertical-scroll-proportion="0.10625738" vertical-offset="0" max-vertical-offset="16272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/contact.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="1" selection-start="418" selection-end="418" vertical-scroll-proportion="0.5017422" vertical-offset="0" max-vertical-offset="861">
@@ -484,7 +478,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/less/styles.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="20" selection-start="212" selection-end="212" vertical-scroll-proportion="0.18305084" vertical-offset="0" max-vertical-offset="885">
+        <state line="9" column="20" selection-start="212" selection-end="212" vertical-scroll-proportion="-6.48" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/variables.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="126" selection-end="126" vertical-scroll-proportion="-1.8367347" vertical-offset="0" max-vertical-offset="198">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="791" column="25" selection-start="24080" selection-end="24080" vertical-scroll-proportion="-5.64" vertical-offset="13956" max-vertical-offset="16308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/maps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="27" selection-start="154" selection-end="154" vertical-scroll-proportion="0.07912088" vertical-offset="0" max-vertical-offset="910">
           <folding />
         </state>
       </provider>

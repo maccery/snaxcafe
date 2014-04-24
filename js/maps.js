@@ -2,6 +2,7 @@ function initialize() {
     var mapOptions = {
         center: new google.maps.LatLng(55.953252, -3.188267),
         zoom: 14,
+        schoolwheel: false,
         disableDefaultUI: true,
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
